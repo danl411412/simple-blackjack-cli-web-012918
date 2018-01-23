@@ -51,7 +51,7 @@ def hit?(total)
     invalid_command
 =end
   end
-  total
+  #total
 end
 
 def invalid_command
