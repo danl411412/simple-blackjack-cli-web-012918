@@ -43,7 +43,7 @@ def hit?(total)
   input = get_user_input
 
   if input == "s"
-    return total
+    total
   elsif input == "h"
     total += deal_card
   else
@@ -64,4 +64,7 @@ end
 
 def runner
   # code runner here
+  welcome
+  current_hand = initial_round
+  hit?(current_hand)
 end
