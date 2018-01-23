@@ -49,7 +49,7 @@ def hit?(total)
   else
     invalid_command
   end
-  #total
+  total
 end
 
 def invalid_command
@@ -66,5 +66,5 @@ def runner
   # code runner here
   welcome
   current_hand = initial_round
-  hit?(current_hand)
+
 end
