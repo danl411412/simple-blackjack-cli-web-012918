@@ -65,6 +65,8 @@ end
 def runner
   # code runner here
   welcome
-  #current_hand = initial_round
-
+  current_hand = initial_round
+  until current_hand > 21
+    current_hand = hit?(current_hand)
+  end
 end
